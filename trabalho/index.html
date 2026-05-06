@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        #container {
+            color:#70515b;
+            padding: 20px;
+            display: flex;
+            gap: 20px;
+        }
+
+        #divPaciente, 
+        #divMedico, 
+        #consultar {
+            flex: 1;
+            border: 1px solid #70515b;
+            padding: 10px;
+        }
+    </style>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="divPaciente">
+            <h1>LISTA DE PACIENTES</h1>
+            <ul id="lista-pacientes">
+
+            </ul>
+        </div>
+        <div id="divMedico">
+            <h1>LISTA DE MÉDICOS</h1>
+            <ul id="lista-medicos">
+            </ul>
+        </div>
+
+        <div id="consultar">
+            <h1>PESQUISAR CONSULTA</h1>
+            <input type="text" id="nomePaciente" placeholder="nomePaciente">
+            <button id="btn" value="Pesquisar" onclick="buscarNome()">🔍</button>
+            <div id="pesquisa-consulta">
+                <ul id="filtro-pesquisa">
+
+                </ul>
+            </div>
+        </div>
+
+        <div id="inserir">
+            <h1>CADASTRAR PACIENTES</h1>
+            <input type="text" id="novo-paciente" placeholder="nomePaciente">
+            <button id="btn" value="Pesquisar" onclick="cadastrarPaciente()">Cadastrar</button>
+            <button id="btn" value="atualizar" onclick="atualizarPaciente()">Atualizar</button>
+        </div>    
+    </div>
+
+
+<script src="app.js"></script>
+</body>
