@@ -80,6 +80,6 @@ Este projeto foi desenvolvido com o objetivo de:
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone : https://github.com/carollineps/Sistema_para_consultas_fullstack
 
 Sistema backend desenvolvido com Node.js para gerenciamento de clínicas médicas. A aplicação permite o cadastro e controle de médicos, pacientes e consultas, oferecendo uma API simples e organizada para operações CRUD, facilitando o agendamento e a administração de atendimentos de forma eficiente.
